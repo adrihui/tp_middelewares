@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('./partials/head') %>
+
+    <body>
+
+        <%- include('./partials/header') %>
+
+        <div class="register">
+            <main class="container">
+                <div class="row">
+                    <div class="col-6 mx-auto mt-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">COMPLETÁ TUS DATOS</h5>
+                                <form action="" method="POST">
+                                    <div class="mb-3">
+                                        <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                                        <input type="text" class="form-control" id="exampleInputEmail1" name="email">
+                                      </div>
+                                    <div class="mb-3">
+                                      <label for="exampleInputEmail1" class="form-label">Email</label>
+                                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                                      <input type="password" class="form-control" id="exampleInputPassword1" name="contrasenia">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Enviar</button>
+                                  </form>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+               
+    
+            </main>
+        </div>
+
+            <%- include('./partials/scripts') %>
+
+    </body>
+
+</html>

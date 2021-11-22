@@ -1,0 +1,22 @@
+.login .mb-3 {
+    text-align: start;
+    padding: 5px 15px;
+}
+
+.login h5{
+    padding: 15px;
+    color: #055160;
+}
+
+.login form button{
+    background-color: #41464b;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.login form button:hover{
+    background-color: #92a7b1;
+}
